@@ -1,4 +1,5 @@
-﻿using System;
+﻿#define Debug
+using System;
 
 namespace AKavalevich
 {
@@ -32,7 +33,9 @@ namespace AKavalevich
 
             Console.SetCursorPosition(15, Console.CursorTop);
             Console.Write(ENTER_TXT);
-
+#if Debug
+            this.cProducts = 2;
+#else
             while (!int.TryParse(Console.ReadLine(), out this.cProducts) || isSign(this.cProducts))
             {
                 outputDash(ELEMENT_ERROR);
@@ -42,6 +45,7 @@ namespace AKavalevich
                 Console.SetCursorPosition(15, Console.CursorTop);
                 Console.Write(ENTER_TXT);
             }
+#endif
 
             this.storage = new Storage();
 
@@ -63,13 +67,27 @@ namespace AKavalevich
         {
             string ENTER_NAME_TXT = "Enter Name Of Product: ";
             string ERROR_NAME_TXT = "Name of Product not set";
+
             string ENTER_AMOUNT_TXT = "Enter Amount: ";
             string ERROR_AMOUNT_TXT = "Amount not set";
+            
             string ENTER_COST_TXT = "Enter Cost: ";
             string ERROR_COST_TXT = "Cost not set";
 
             Console.Write(ENTER_NAME_TXT);
+#if Debug            
 
+            this.amountProd = (new Random()).Next(1, 10);
+            Console.Write(string.Format("{0}{1}", ENTER_COST_TXT, this.amountProd));
+
+            this.nProd = string.Format("{0}-{1}", "Ford", this.amountProd);
+
+            Console.Write(string.Format("{0}{1}", ENTER_AMOUNT_TXT, this.nProd));
+
+            this.costProd = (new Random()).Next(1000, 4000);
+            Console.Write(string.Format("{0}{1}", ENTER_COST_TXT, this.costProd));
+
+#else
             this.nProd = Console.ReadLine();
 
             while (string.IsNullOrEmpty(this.nProd))
@@ -104,6 +122,7 @@ namespace AKavalevich
 
                 Console.Write(ENTER_COST_TXT);
             }
+#endif
 
             Product product = new Product(this.nProd, this.amountProd, this.costProd);
 
@@ -116,6 +135,7 @@ namespace AKavalevich
             outputDash();
             Console.SetCursorPosition(10, Console.CursorTop);
             Console.WriteLine("Output information about Product by index");
+
         }
         private bool isSign(int number)
         {
