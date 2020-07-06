@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 
 namespace AKavalevich
@@ -18,9 +20,9 @@ namespace AKavalevich
 
         protected readonly CultureInfo BY = CultureInfo.GetCultureInfo("be-BY");
 
-        public Product getProduct(int index)
+        public Product getProductByName(string nProduct)
         {
-            return this.storage[index];
+            return (Product)this.storage.Find(prod => prod.getNProduct() == nProduct);
         }
 
         public void addProduct(Product product) 
@@ -54,19 +56,27 @@ namespace AKavalevich
 
         public bool sortByCost()
         {
-            this.storage.Sort();
+            this.storage.Sort((Product x, Product y) =>
+                (int)x.getCost() - (int)y.getCost()
+            ); ;
 
             return true;
         }
 
         public bool sortByNProduct()
         {
-            throw new NotImplementedException();
+            this.storage.Sort();
+
+            return true;
         }
 
         public bool sortByAmount()
         {
-            throw new NotImplementedException();
+            this.storage.Sort((Product x, Product y) =>
+                x.getAmount() - y.getAmount()
+            );
+
+            return true;
         }
     }
 }

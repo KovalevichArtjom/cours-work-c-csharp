@@ -1,4 +1,6 @@
-﻿namespace AKavalevich
+﻿using System;
+
+namespace AKavalevich
 {
     class Product : IProduct
     {
@@ -23,6 +25,13 @@
         public decimal getCost()
         {
             return this.cost;
+        }
+
+        public int CompareTo(Product product)
+        {
+            if (product == null) return 1;
+
+            return this.nProduct.CompareTo(product.nProduct);
         }
     }
 }

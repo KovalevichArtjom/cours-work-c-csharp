@@ -8,7 +8,8 @@
             set;
         }
 
-        public Product getProduct(int index);
+        public Product getProductByName(string nProduct);
+        public void addProduct(Product product);
         public bool sortByNProduct();
         public bool sortByAmount();
         public bool sortByCost();

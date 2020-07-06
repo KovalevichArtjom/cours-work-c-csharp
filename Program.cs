@@ -11,7 +11,12 @@ namespace AKavalevich
             Application app = new Application();
 
             app.createStorage();
-            app.functionalityStorage();
+            app.findProductByIndex();
+            app.findProductByName();
+            app.sortByName();
+            app.sortByAmount();
+            app.sortByCost();
+
             Console.ReadKey();
         }
     }

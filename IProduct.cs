@@ -1,6 +1,8 @@
-﻿namespace AKavalevich
+﻿using System;
+
+namespace AKavalevich
 {
-    interface IProduct
+    interface IProduct : IComparable<Product>
     {
         private string nProduct { 
             get {
@@ -30,5 +32,6 @@
         string getNProduct();
         int getAmount();
         decimal getCost();
+        public new int CompareTo(Product obj);
     }
 }
