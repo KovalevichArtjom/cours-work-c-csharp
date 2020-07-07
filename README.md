@@ -1,8 +1,6 @@
 # cours-work-c-csharp
 ## Discipline "Object-oriented programming" in C#
 
-***
-
 ### Exercise 1<br/>
 Create a “Product” class containing the following private fields: product name, quantity, product cost in rubles. </br>Provide validation of data entry. Provide properties to get the state of the object.</br>
 Create a class “Warehouse" containing a closed array of goods.<br/>Provide:
