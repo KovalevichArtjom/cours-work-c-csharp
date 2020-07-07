@@ -1,0 +1,13 @@
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\bin\Debug\netcoreapp3.1\AKavalevich.exe
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\bin\Debug\netcoreapp3.1\AKavalevich.deps.json
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\bin\Debug\netcoreapp3.1\AKavalevich.runtimeconfig.json
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\bin\Debug\netcoreapp3.1\AKavalevich.runtimeconfig.dev.json
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\bin\Debug\netcoreapp3.1\AKavalevich.dll
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\bin\Debug\netcoreapp3.1\AKavalevich.pdb
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.csprojAssemblyReference.cache
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.AssemblyInfoInputs.cache
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.AssemblyInfo.cs
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.csproj.CoreCompileInputs.cache
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.dll
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.pdb
+F:\study\ООП\cours-work-c-csharp\cours-work-c-csharp\Exercise_One\obj\Debug\netcoreapp3.1\AKavalevich.genruntimeconfig.cache

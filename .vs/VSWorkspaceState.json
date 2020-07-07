@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Exercise_One",
+    "\\Exercise_Two"
   ],
-  "SelectedNode": "\\AKavalevich.sln",
+  "SelectedNode": "\\Exercise_One\\AKavalevich.csproj",
   "PreviewInSolutionExplorer": false
 }
