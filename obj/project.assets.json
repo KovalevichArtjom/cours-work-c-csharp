@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj",
-      "projectName": "AKavalevich",
-      "projectPath": "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj",
+      "projectUniqueName": "F:\\study\\save\\cours-work-c-csharp\\cours-work-c-csharp.csproj",
+      "projectName": "cours-work-c-csharp",
+      "projectPath": "F:\\study\\save\\cours-work-c-csharp\\cours-work-c-csharp.csproj",
       "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-      "outputPath": "F:\\study\\ООП\\cours-work-c-csharp\\obj\\",
+      "outputPath": "F:\\study\\save\\cours-work-c-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

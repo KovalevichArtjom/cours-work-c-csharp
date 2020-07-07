@@ -1,23 +1,12 @@
-﻿
-using System;
+﻿using System;
 
-namespace AKavalevich
+namespace cours_work_c_csharp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WindowWidth = 50;
-            Application app = new Application();
-
-            app.createStorage();
-            app.findProductByIndex();
-            app.findProductByName();
-            app.sortByName();
-            app.sortByAmount();
-            app.sortByCost();
-
-            Console.ReadKey();
+            Console.WriteLine("Hello World!");
         }
     }
 }

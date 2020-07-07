@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj": {}
+    "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\AKavalevich.csproj": {}
   },
   "projects": {
-    "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj": {
+    "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\AKavalevich.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj",
+        "projectUniqueName": "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\AKavalevich.csproj",
         "projectName": "AKavalevich",
-        "projectPath": "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj",
+        "projectPath": "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\AKavalevich.csproj",
         "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-        "outputPath": "F:\\study\\ООП\\cours-work-c-csharp\\obj\\",
+        "outputPath": "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

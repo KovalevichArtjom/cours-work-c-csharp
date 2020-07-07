@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1qp8ZAn0u7wvLO/u/gYOsqxyZGXGVOC008d9902j+cHYmHI108z9H8ZlJC27ROYYKi2Bfkiy/fcg19HSOUccuQ==",
+  "dgSpecHash": "lcXo+lscptGXR3wNuD3I+6k9icxl+DM/+fYdezhAmPfSY/3P8wg7ilk+GR1LEkTJ5js9vivV1VJKdkSOshpzDw==",
   "success": true,
-  "projectFilePath": "F:\\study\\ООП\\cours-work-c-csharp\\AKavalevich.csproj",
+  "projectFilePath": "F:\\study\\save\\cours-work-c-csharp\\cours-work-c-csharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Professional\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
