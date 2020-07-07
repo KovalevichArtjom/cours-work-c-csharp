@@ -1,25 +1,24 @@
 ﻿using System;
 
-namespace Exercise_Two
+namespace Exercise_Two.models
 {
-    class Car : ABaseVehicle
+    class Lorry : ABaseVehicle
     {
         public enum typesBody
         {
-            Sedan, Coupe, Hatchback, Minivan,
-            Truck, StationWagon, Convertible, SUV
+            Open, Close, Special
         }
 
         private readonly typesBody typeBody;
 
-        public Car(
+        public Lorry(
             decimal Cost,
             int mSpeed,
             int yearManufacture,
             int nWheels,
             string Manufacturer,
             typesBody typeBody
-            ) : base (
+            ) : base(
             Cost,
             mSpeed,
             yearManufacture,
@@ -32,14 +31,14 @@ namespace Exercise_Two
         {
             return string.Format("{0}\n{1}: {2}",
                 base.getStateObj(),
-                typeof(Car.typesBody).FullName,
+                typeof(Lorry.typesBody).FullName,
                 this.typeBody
                 );
         }
 
         public override void printStateObj()
         {
-            Console.WriteLine("Information about Object \"{0}\"\n", typeof(Car).Name);
+            Console.WriteLine("Information about Object \"{0}\"\n", typeof(Lorry).Name);
             base.printStateObj();
         }
 
@@ -47,7 +46,7 @@ namespace Exercise_Two
         {
             if (other == null) return 1;
 
-            return this.mSpeed.CompareTo(other.mSpeed);
+            return this.yearManufacture.CompareTo(other.yearManufacture);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exercise_Two.models;
+using System;
 
 namespace Exercise_Two
 {
@@ -14,6 +15,8 @@ namespace Exercise_Two
             Bicycle bicycle = new Bicycle(710, 80, 2019, 1, "Random", Bicycle.typesFrame.Rigid);
             bicycle.printStateObj();
 
+            Lorry lorry = new Lorry(10000, 160, 2010, 1, "Volvo", Lorry.typesBody.Special);
+            lorry.printStateObj();
 
             Console.ReadKey();
         }

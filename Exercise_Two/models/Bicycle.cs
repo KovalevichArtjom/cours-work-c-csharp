@@ -42,5 +42,12 @@ namespace Exercise_Two
             base.printStateObj();
         }
 
+        public override int CompareTo(ABaseVehicle other)
+        {
+            if (other == null) return 1;
+
+            return this.Cost.CompareTo(other.Cost);
+
+        }
     }
 }
