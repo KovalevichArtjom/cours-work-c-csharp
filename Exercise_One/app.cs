@@ -3,7 +3,7 @@ using System;
 
 namespace AKavalevich
 {
-    class Application
+    class app
     {
         private int cProducts;
         //properties of the product
@@ -20,12 +20,27 @@ namespace AKavalevich
         private Storage storage;
         private Product product;
 
+        public app()
+        {
+            Console.WindowWidth = 50;
+        }
+
+        public void run()
+        {
+            createStorage();
+            findProductByIndex();
+            findProductByName();
+            sortByName();
+            sortByAmount();
+            sortByCost();
+        }
+
         public static void outputChar(char element = ELEMENT_CHAR, int count = COUNT_DASH)
         {
             Console.WriteLine(new String(element, count));
         }
 
-        public void createStorage()
+        private void createStorage()
         {
             
             outputChar();
@@ -121,7 +136,7 @@ namespace AKavalevich
             return product;
         }
 
-        public void findProductByIndex()
+        private void findProductByIndex()
         {
             Console.Clear();
 
@@ -163,7 +178,7 @@ namespace AKavalevich
             Console.ReadKey();
         }
 
-        public void findProductByName()
+        private void findProductByName()
         {
             Console.Clear();
 
@@ -218,7 +233,7 @@ namespace AKavalevich
             Console.ReadKey();
         }
 
-        public void sortByName()
+        private void sortByName()
         {
             Console.Clear();
 
@@ -236,7 +251,7 @@ namespace AKavalevich
 
         }
 
-        public void sortByAmount() 
+        private void sortByAmount() 
         {
             outputChar();
 
@@ -254,7 +269,7 @@ namespace AKavalevich
 
         }
 
-        public void sortByCost()
+        private void sortByCost()
         {
             outputChar();
 

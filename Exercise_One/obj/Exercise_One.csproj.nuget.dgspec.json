@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj": {}
+    "F:\\study\\ООП\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj": {}
   },
   "projects": {
-    "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj": {
+    "F:\\study\\ООП\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj",
+        "projectUniqueName": "F:\\study\\ООП\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj",
         "projectName": "Exercise_One",
-        "projectPath": "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj",
+        "projectPath": "F:\\study\\ООП\\cours-work-c-csharp\\Exercise_One\\Exercise_One.csproj",
         "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-        "outputPath": "F:\\study\\ООП\\cours-work-c-csharp\\cours-work-c-csharp\\Exercise_One\\obj\\",
+        "outputPath": "F:\\study\\ООП\\cours-work-c-csharp\\Exercise_One\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
