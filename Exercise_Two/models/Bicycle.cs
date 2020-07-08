@@ -2,7 +2,7 @@
 
 namespace Exercise_Two
 {
-    class Bicycle : ABaseVehicle
+    class Bicycle : BaseVehicle
     {
         public enum typesFrame
         {
@@ -38,16 +38,8 @@ namespace Exercise_Two
 
         public override void printStateObj()
         {
-            Console.WriteLine("Information about Object \"{0}\"\n", typeof(Bicycle).Name);
+            Console.WriteLine("\nInformation about Object \"{0}\"\n", typeof(Bicycle).Name);
             base.printStateObj();
-        }
-
-        public override int CompareTo(ABaseVehicle other)
-        {
-            if (other == null) return 1;
-
-            return this.Cost.CompareTo(other.Cost);
-
         }
     }
 }

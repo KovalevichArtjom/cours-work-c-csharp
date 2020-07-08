@@ -1,20 +1,18 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 
 namespace Exercise_Two
 {
-    abstract class ABaseVehicle : IComparable<ABaseVehicle>
+    abstract class BaseVehicle : IVehicle
     {
         private readonly CultureInfo BY = CultureInfo.GetCultureInfo("be-BY");
+        public decimal Cost { get; set; }
+        private int mSpeed { get; set; }
+        private int yearManufacture { get; set; }
+        private int nWheels { get; set; }
+        private string Manufacturer { get; set; }
 
-        public readonly decimal Cost;
-        public readonly int mSpeed;
-        public readonly int yearManufacture;
-        public readonly int nWheels;
-        public readonly string Manufacturer;
-
-        protected ABaseVehicle(
+        protected BaseVehicle(
             decimal Cost,
             int mSpeed,
             int yearManufacture,
@@ -45,7 +43,5 @@ namespace Exercise_Two
         {
             Console.WriteLine(this.getStateObj());
         }
-
-        public abstract int CompareTo(ABaseVehicle other);
     }
 }

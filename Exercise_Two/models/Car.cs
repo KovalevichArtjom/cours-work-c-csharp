@@ -2,7 +2,7 @@
 
 namespace Exercise_Two
 {
-    class Car : ABaseVehicle
+    class Car : BaseVehicle
     {
         public enum typesBody
         {
@@ -39,15 +39,8 @@ namespace Exercise_Two
 
         public override void printStateObj()
         {
-            Console.WriteLine("Information about Object \"{0}\"\n", typeof(Car).Name);
+            Console.WriteLine("\nInformation about Object \"{0}\"\n", typeof(Car).Name);
             base.printStateObj();
-        }
-
-        public override int CompareTo(ABaseVehicle other)
-        {
-            if (other == null) return 1;
-
-            return this.mSpeed.CompareTo(other.mSpeed);
         }
     }
 }
