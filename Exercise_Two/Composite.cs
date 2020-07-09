@@ -19,6 +19,16 @@ namespace Exercise_Two
 
         public void sort()
         {
+            string description = "Sorting of objects by \"Cost\".";
+
+            Console.WriteLine(new string('-', Console.WindowWidth));
+            Console.SetCursorPosition(
+                (int)((Console.WindowWidth / 2) - (description.Length / 2)),
+                Console.CursorTop
+                );
+            Console.WriteLine(description);
+            Console.WriteLine(new string('-', Console.WindowWidth));
+
             this.components.Sort(
                 (IVehicle x, IVehicle y) => (int)x.Cost - (int)y.Cost
             );
