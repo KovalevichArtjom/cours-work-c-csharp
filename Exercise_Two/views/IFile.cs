@@ -25,6 +25,14 @@ namespace Exercise_Two.views
                 return this.content;
             }
             set => this.content = value as StreamReader;
+        }      
+        private string pathApp
+        {
+            get 
+            {
+                return this.pathApp;
+            }
+            set => this.pathApp = value;
         }
         public string name {
             get 
@@ -50,7 +58,8 @@ namespace Exercise_Two.views
             set => this.extension = value;
         }
         public void create();
-        public void delete();
-        public void print();
+        public bool delete();
+        public bool write(string str);
+        public bool print();
     }
 }

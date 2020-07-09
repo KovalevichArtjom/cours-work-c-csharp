@@ -1,0 +1,23 @@
+Information about Object "Bicycle"
+base.Cost: 710,00 Br
+base.mSpeed: 80
+base.yearManufacture: 2019
+base.nWheels: 1
+base.Manufacturer: Random
+Exercise_Two.Bicycle+typesFrame: Rigid
+
+Information about Object "Car"
+base.Cost: 4 000,00 Br
+base.mSpeed: 180
+base.yearManufacture: 1996
+base.nWheels: 4
+base.Manufacturer: Opel
+Exercise_Two.Car+typesBody: Hatchback
+
+Information about Object "Lorry"
+base.Cost: 10 000,00 Br
+base.mSpeed: 160
+base.yearManufacture: 2010
+base.nWheels: 1
+base.Manufacturer: Volvo
+Exercise_Two.models.Lorry+typesBody: Special

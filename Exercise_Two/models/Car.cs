@@ -28,9 +28,11 @@ namespace Exercise_Two
                 )
         { this.typeBody = typeBody; }
 
-        protected override string getStateObj()
+        public override string getStateObj()
         {
-            return string.Format("{0}\n{1}: {2}",
+            return string.Format(
+                "{0}\n{1}\n{2}: {3}",
+                string.Format("Information about Object \"{0}\"", typeof(Car).Name),
                 base.getStateObj(),
                 typeof(Car.typesBody).FullName,
                 this.typeBody
@@ -39,7 +41,6 @@ namespace Exercise_Two
 
         public override void printStateObj()
         {
-            Console.WriteLine("\nInformation about Object \"{0}\"\n", typeof(Car).Name);
             base.printStateObj();
         }
     }

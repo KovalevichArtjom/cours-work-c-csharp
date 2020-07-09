@@ -40,6 +40,7 @@ namespace Exercise_Two
             }
             set => this.nWheels = value;
         }
+        public string getStateObj();
         public void printStateObj();
     }
 }

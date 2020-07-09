@@ -6,6 +6,7 @@ namespace Exercise_Two
     abstract class BaseVehicle : IVehicle
     {
         private readonly CultureInfo BY = CultureInfo.GetCultureInfo("be-BY");
+        public static int HEADER_POSITION;
         public decimal Cost { get; set; }
         private int mSpeed { get; set; }
         private int yearManufacture { get; set; }
@@ -27,7 +28,7 @@ namespace Exercise_Two
             this.Manufacturer       = Manufacturer;
         }
 
-        protected virtual string getStateObj()
+        public virtual string getStateObj()
         {
             return string.Format(
                             "base.Cost: {0}\nbase.mSpeed: {1}\nbase.yearManufacture: {2}\nbase.nWheels: {3}\nbase.Manufacturer: {4}",
@@ -36,11 +37,12 @@ namespace Exercise_Two
                             this.yearManufacture,
                             this.nWheels,
                             this.Manufacturer
-                            ); ;
+                            );
         }
 
         public virtual void printStateObj()
         {
+            Console.SetCursorPosition(BaseVehicle.HEADER_POSITION, Console.CursorTop);
             Console.WriteLine(this.getStateObj());
         }
     }

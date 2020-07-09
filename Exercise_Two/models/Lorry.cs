@@ -27,9 +27,11 @@ namespace Exercise_Two.models
                 )
         { this.typeBody = typeBody; }
 
-        protected override string getStateObj()
+        public override string getStateObj()
         {
-            return string.Format("{0}\n{1}: {2}",
+            return string.Format(
+                "{0}\n{1}\n{2}: {3}",
+                string.Format("Information about Object \"{0}\"", typeof(Lorry).Name),
                 base.getStateObj(),
                 typeof(Lorry.typesBody).FullName,
                 this.typeBody
@@ -38,7 +40,6 @@ namespace Exercise_Two.models
 
         public override void printStateObj()
         {
-            Console.WriteLine("\nInformation about Object \"{0}\"\n", typeof(Lorry).Name);
             base.printStateObj();
         }
     }
